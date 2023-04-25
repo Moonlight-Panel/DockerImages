@@ -1,4 +1,4 @@
-FROM        python:3.11-slim
+FROM        python:3.10-slim
 
 LABEL       author="Marcel Baumgartner" maintainer="admin@endelon-hosting.de"
 
