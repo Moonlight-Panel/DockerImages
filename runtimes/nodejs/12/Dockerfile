@@ -3,7 +3,7 @@ FROM        node:12-bullseye-slim
 LABEL       author="Marcel Baumgartner" maintainer="admin@endelon-hosting.de"
 
 RUN         apt update \
-            && apt -y install iproute2 git libsqlite3-dev python3 python3-dev ca-certificates dnsutils tzdata zip tar curl build-essential libtool \
+            && apt -y install ffmpeg iproute2 git libsqlite3-dev python3 python3-dev ca-certificates dnsutils tzdata zip tar curl build-essential libtool \
             && npm -g install npm@latest \
             && useradd -m -d /home/container container
 
