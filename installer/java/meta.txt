@@ -1,1 +1,1 @@
-moonlightpanel/images:installerjava
+moonlightpanel/installer:java

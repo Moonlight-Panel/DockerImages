@@ -1,6 +1,5 @@
-FROM        openjdk:8-jdk-slim
+FROM        eclipse-temurin:8-alpine
 
 LABEL       author="Marcel Baumgartner" maintainer="marcel@endelon.team"
 
-RUN         apt update
-RUN         apt install -y curl jq wget unzip
+RUN         apk add --update --no-cache ca-certificates curl unzip tar git jq wget
